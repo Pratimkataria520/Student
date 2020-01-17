@@ -15,32 +15,10 @@ public class Student {
     private int ID;
     private int age;
     private String email;
-    private String program;
-    private int test;
-
-    public int getTest() {
-        return test;
-    }
-
-    public void setTest(int test) {
-        this.test = test;
-    }
-    
-    
 
     public String getEmail() {
         return email;
     }
-
-    public String getProgram() {
-        return program;
-    }
-
-    public void setProgram(String program) {
-        this.program = program;
-    }
-    
-    
 
     public void setEmail(String email) {
         this.email = email;
