@@ -15,10 +15,20 @@ public class Student {
     private int ID;
     private int age;
     private String email;
+    private String mobileModel;
 
     public String getEmail() {
         return email;
     }
+
+    public String getMobileModel() {
+        return mobileModel;
+    }
+
+    public void setMobileModel(String mobileModel) {
+        this.mobileModel = mobileModel;
+    }
+    
 
     public void setEmail(String email) {
         this.email = email;
