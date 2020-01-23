@@ -16,6 +16,16 @@ public class Student {
     private int age;
     private String email;
     private String mobileModel;
+    private String jdflkjs;
+
+    public String getJdflkjs() {
+        return jdflkjs;
+    }
+
+    public void setJdflkjs(String jdflkjs) {
+        this.jdflkjs = jdflkjs;
+    }
+    
 
     public String getEmail() {
         return email;
