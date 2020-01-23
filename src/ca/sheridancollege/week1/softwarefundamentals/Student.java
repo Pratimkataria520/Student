@@ -16,6 +16,16 @@ public class Student {
     private int age;
     private String email;
     private String mobileModel;
+    private int number;
+
+    public int getNumber() {
+        return number;
+    }
+
+    public void setNumber(int number) {
+        this.number = number;
+    }
+    
 
     public String getEmail() {
         return email;
