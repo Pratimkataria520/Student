@@ -17,17 +17,7 @@ public class Student {
     private String email;
     private String mobileModel;
     private int number;
-    private int ut;
 
-    public int getUt() {
-        return ut;
-    }
-
-    public void setUt(int ut) {
-        this.ut = ut;
-    }
-
-    
     public int getNumber() {
         return number;
     }
@@ -36,6 +26,7 @@ public class Student {
         this.number = number;
     }
     
+
     public String getEmail() {
         return email;
     }
