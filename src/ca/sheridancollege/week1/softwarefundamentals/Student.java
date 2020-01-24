@@ -7,7 +7,7 @@ package ca.sheridancollege.week1.softwarefundamentals;
 
 /**
  *
- * @author sidhu376 - 24-JAN-2020 Friday
+ * @author sidhu376 - 24-JAN-2020 Friday 1degree celsius
  */
 public class Student {
     
