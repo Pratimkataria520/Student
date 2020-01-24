@@ -14,6 +14,16 @@ public class Student {
     private String name;
     private String addr;
     private int numb;
+    private String status;
+
+    public String getStatus() {
+        return status;
+    }
+
+    public void setStatus(String status) {
+        this.status = status;
+    }
+    
 
     public int getNumb() {
         return numb;
