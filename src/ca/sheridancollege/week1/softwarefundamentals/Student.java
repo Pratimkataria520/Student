@@ -13,7 +13,17 @@ public class Student {
     
     private String name;
     private String addr;
+    private int numb;
 
+    public int getNumb() {
+        return numb;
+    }
+
+    public void setNumb(int numb) {
+        this.numb = numb;
+    }
+
+    
     
     public String getAddr() {
         return addr;
