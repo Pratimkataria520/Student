@@ -13,25 +13,6 @@ public class Student {
     
     private String name;
     private String addr;
-    private int inter;
-    private String nam;
-
-    public String getNam() {
-        return nam;
-    }
-
-    public void setNam(String nam) {
-        this.nam = nam;
-    }
-    
-
-    public int getInter() {
-        return inter;
-    }
-
-    public void setInter(int inter) {
-        this.inter = inter;
-    }
 
     
     public String getAddr() {
