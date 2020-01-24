@@ -12,53 +12,11 @@ package ca.sheridancollege.week1.softwarefundamentals;
 public class Student {
     
     private String name;
-    private int ID;
-    private int age;
-    private String email;
-    private String mobileModel;
-    private String jdflkjs;
+    private String addr;
 
-    public String getJdflkjs() {
-        return jdflkjs;
-    }
-
-    public void setJdflkjs(String jdflkjs) {
-        this.jdflkjs = jdflkjs;
-    }
     
-
-    public String getEmail() {
-        return email;
-    }
-
-    public String getMobileModel() {
-        return mobileModel;
-    }
-
-    public void setMobileModel(String mobileModel) {
-        this.mobileModel = mobileModel;
-    }
-    
-
-    public void setEmail(String email) {
-        this.email = email;
-    }
-    
-            
-    public int getID() {
-        return ID;
-    }
-
-    public void setID(int ID) {
-        this.ID = ID;
-    }
-
-    public int getAge() {
-        return age;
-    }
-
-    public void setAge(int age) {
-        this.age = age;
+    public String getAddr() {
+        return addr;
     }
 
     /**
@@ -66,6 +24,10 @@ public class Student {
      *
      * @return the value of name
      */
+    public void setAddr(String addr) {    
+        this.addr = addr;
+    }
+
     public String getName() {
         return name;
     }
